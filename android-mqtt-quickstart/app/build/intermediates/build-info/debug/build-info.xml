@@ -2,47 +2,118 @@
 <instant-run
     abi="armeabi-v7a,armeabi"
     api-level="21"
-    build-mode="COLD"
+    build-mode="FULL"
     density="xxhdpi"
     format="10"
-    ir-eligibility="COMPATIBLE"
     plugin-version="3.0.1"
-    timestamp="1519224819674"
+    timestamp="1519230087907"
     token="-278265704644772658"
-    verifier="COLD_SWAP_REQUESTED" >
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="487" />
+        duration="9963" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="34" />
+        duration="466" />
     <task
         name="verifier"
-        duration="6" />
+        duration="303" />
 
+    <artifact
+        location="C:\Users\Rene\Documents\GitHub\mqtt-android-client\android-mqtt-quickstart\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Rene\Documents\GitHub\mqtt-android-client\android-mqtt-quickstart\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Rene\Documents\GitHub\mqtt-android-client\android-mqtt-quickstart\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Rene\Documents\GitHub\mqtt-android-client\android-mqtt-quickstart\app\build\outputs\apk\debug\app-debug.apk"
+        type="SPLIT_MAIN" />
+    <artifact
+        location="C:\Users\Rene\Documents\GitHub\mqtt-android-client\android-mqtt-quickstart\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Rene\Documents\GitHub\mqtt-android-client\android-mqtt-quickstart\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Rene\android-mqtt-quickstart\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Rene\android-mqtt-quickstart\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Rene\Documents\GitHub\mqtt-android-client\android-mqtt-quickstart\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Rene\android-mqtt-quickstart\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Rene\Documents\GitHub\mqtt-android-client\android-mqtt-quickstart\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Rene\android-mqtt-quickstart\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Rene\Documents\GitHub\mqtt-android-client\android-mqtt-quickstart\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Rene\Documents\GitHub\mqtt-android-client\android-mqtt-quickstart\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Rene\android-mqtt-quickstart\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+        type="SPLIT" />
     <artifact
         location="C:\Users\Rene\android-mqtt-quickstart\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\Rene\android-mqtt-quickstart\app\build\outputs\apk\debug\app-debug.apk"
-        type="SPLIT_MAIN" />
+        location="C:\Users\Rene\Documents\GitHub\mqtt-android-client\android-mqtt-quickstart\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Rene\android-mqtt-quickstart\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Rene\android-mqtt-quickstart\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Rene\android-mqtt-quickstart\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Rene\Documents\GitHub\mqtt-android-client\android-mqtt-quickstart\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Rene\android-mqtt-quickstart\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Rene\android-mqtt-quickstart\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+        type="SPLIT" />
 
     <build
         build-mode="FULL"
-        timestamp="1519223913956"
+        timestamp="1519230087907"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="C:\Users\Rene\android-mqtt-quickstart\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            location="C:\Users\Rene\Documents\GitHub\mqtt-android-client\android-mqtt-quickstart\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\Rene\android-mqtt-quickstart\app\build\outputs\apk\debug\app-debug.apk"
+            location="C:\Users\Rene\Documents\GitHub\mqtt-android-client\android-mqtt-quickstart\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Rene\Documents\GitHub\mqtt-android-client\android-mqtt-quickstart\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Rene\Documents\GitHub\mqtt-android-client\android-mqtt-quickstart\app\build\outputs\apk\debug\app-debug.apk"
             type="SPLIT_MAIN" />
         <artifact
-            location="C:\Users\Rene\android-mqtt-quickstart\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            location="C:\Users\Rene\Documents\GitHub\mqtt-android-client\android-mqtt-quickstart\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Rene\Documents\GitHub\mqtt-android-client\android-mqtt-quickstart\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\Rene\android-mqtt-quickstart\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
@@ -51,47 +122,50 @@
             location="C:\Users\Rene\android-mqtt-quickstart\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
         <artifact
+            location="C:\Users\Rene\Documents\GitHub\mqtt-android-client\android-mqtt-quickstart\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Rene\android-mqtt-quickstart\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Rene\Documents\GitHub\mqtt-android-client\android-mqtt-quickstart\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Rene\android-mqtt-quickstart\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Rene\Documents\GitHub\mqtt-android-client\android-mqtt-quickstart\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Rene\Documents\GitHub\mqtt-android-client\android-mqtt-quickstart\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Rene\android-mqtt-quickstart\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Rene\android-mqtt-quickstart\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Rene\Documents\GitHub\mqtt-android-client\android-mqtt-quickstart\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Rene\android-mqtt-quickstart\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            type="SPLIT" />
+        <artifact
             location="C:\Users\Rene\android-mqtt-quickstart\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\Rene\android-mqtt-quickstart\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\Rene\android-mqtt-quickstart\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            location="C:\Users\Rene\Documents\GitHub\mqtt-android-client\android-mqtt-quickstart\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\Rene\android-mqtt-quickstart\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\Rene\android-mqtt-quickstart\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
-            type="SPLIT" />
-        <artifact
             location="C:\Users\Rene\android-mqtt-quickstart\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
             type="SPLIT" />
-        <artifact
-            location="C:\Users\Rene\android-mqtt-quickstart\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
-            type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        ir-eligibility="COMPATIBLE"
-        timestamp="1519224763847"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="C:\Users\Rene\android-mqtt-quickstart\app\build\outputs\apk\debug\app-debug.apk"
-            type="SPLIT_MAIN" />
-    </build>
-    <build
-        build-mode="COLD"
-        ir-eligibility="COMPATIBLE"
-        timestamp="1519224819674"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="C:\Users\Rene\android-mqtt-quickstart\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Rene\android-mqtt-quickstart\app\build\outputs\apk\debug\app-debug.apk"
-            type="SPLIT_MAIN" />
     </build>
 
 </instant-run>

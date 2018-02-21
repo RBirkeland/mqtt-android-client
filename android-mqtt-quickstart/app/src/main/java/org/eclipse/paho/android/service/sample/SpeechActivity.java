@@ -58,6 +58,8 @@ public class SpeechActivity extends Activity {
         }
     }
 
+    String message = "";
+
     /**
      * Receiving speech input
      * */
@@ -73,7 +75,7 @@ public class SpeechActivity extends Activity {
                     ArrayList<String> result = data
                             .getStringArrayListExtra(RecognizerIntent.EXTRA_RESULTS);
                     txtSpeechInput.setText(result.get(0));
-                    System.out.println(result.get(0));
+                    message = result.get(0);
                 }
                 break;
             }
@@ -81,6 +83,9 @@ public class SpeechActivity extends Activity {
     }
 
     public void stop(View v) {
+        Intent intent = new Intent();
+        intent.putExtra("editTextValue", message);
+        setResult(RESULT_OK, intent);
         finish();
     }
 }

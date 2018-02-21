@@ -23,6 +23,7 @@ import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.view.Menu;
 import android.view.View;
+import android.widget.TextView;
 
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
@@ -79,7 +80,18 @@ public class ConnectionDetails extends FragmentActivity implements
   public void speechMethod(View v) {
     System.out.println("SPEEEEEEEECH");
     Intent intent = new Intent(this, SpeechActivity.class);
-    startActivity(intent);
+    startActivityForResult(intent, 1);
+  }
+
+  public void onActivityResult(int requestCode, int resultCode, Intent data) {
+    super.onActivityResult(requestCode, resultCode, data);
+    if (requestCode == 1) {
+      if(resultCode == RESULT_OK) {
+        String message = data.getStringExtra("editTextValue");
+        System.out.print("Got back: " + message);
+        ((TextView) findViewById(R.id.lastWill)).setText("Thor, "+ message + ". Thank you.");
+      }
+    }
   }
 
   /**

@@ -29,6 +29,7 @@ IBM Corp.
 
     <EditText
         android:id="@+id/lastWillTopic"
+        android:text="ui/output"
         android:layout_height="wrap_content"
         android:layout_weight="0.22"
         android:layout_width="0dip"
@@ -118,6 +119,7 @@ IBM Corp.
     android:id="@+id/retainedGroup"
     android:layout_below="@id/qosGroup"
     android:layout_marginTop="25dp" >
+
     <TextView
         android:id="@+id/retainedTextView"
         android:layout_width="wrap_content"
@@ -141,6 +143,7 @@ IBM Corp.
         android:layout_weight="1"
         android:onClick="speechMethod"
         android:text="Speech" />
+
 </LinearLayout>
 
 </RelativeLayout>
