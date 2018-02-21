@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Rene\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="C:\Users\Rene\android-mqtt-quickstart\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0_3d6fb985de5bbcc5e942241251cc8cb139ee7733.jar" />
+    </item>
+    <item
+        jar="C:\Users\Rene\android-mqtt-quickstart\app\libs\org.eclipse.paho.android.service-1.0.2.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="40bf368bd65dc9b5e7b0719ac3ba25cc010cc685">
+        <dex dex="C:\Users\Rene\android-mqtt-quickstart\app\build\intermediates\pre-dexed\debug\org.eclipse.paho.android.service-1.0.2_76ceb7ce33ef25067a3f0ad98f828b45dc0a0f74.jar" />
+    </item>
+    <item
+        jar="C:\Users\Rene\android-mqtt-quickstart\app\libs\org.eclipse.paho.client.mqttv3-1.0.2.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="f62da4d2ad7345284cdd1030fb924a47529778f8">
+        <dex dex="C:\Users\Rene\android-mqtt-quickstart\app\build\intermediates\pre-dexed\debug\org.eclipse.paho.client.mqttv3-1.0.2_5814f707fef6099c3eb5bb36a3296017b54c278a.jar" />
+    </item>
+
+</items>
