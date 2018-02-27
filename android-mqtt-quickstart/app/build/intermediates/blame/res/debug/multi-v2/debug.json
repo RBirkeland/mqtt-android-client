@@ -250,28 +250,6 @@
             ]
         },
         {
-            "outputFile": "C:\\Users\\Rene\\Documents\\GitHub\\mqtt-android-client\\android-mqtt-quickstart\\app\\build\\intermediates\\res\\merged\\debug\\values-w720dp-v13_values-w720dp-v13.arsc.flat",
-            "map": [
-                {
-                    "source": "C:\\Users\\Rene\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4beac4ec2a5ccc35796589351d13991a\\res\\values-w720dp\\values.xml",
-                    "from": {
-                        "startLines": "3",
-                        "startColumns": "4",
-                        "startOffsets": "56",
-                        "endColumns": "76",
-                        "endOffsets": "128"
-                    },
-                    "to": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "76",
-                        "endOffsets": "127"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "C:\\Users\\Rene\\Documents\\GitHub\\mqtt-android-client\\android-mqtt-quickstart\\app\\build\\intermediates\\res\\merged\\debug\\values-sr_values-sr.arsc.flat",
             "map": [
                 {
@@ -289,6 +267,28 @@
                         "startOffsets": "55,164,272,395,498,604,690,794,912,1017,1125,1226,1330,1438,1539",
                         "endColumns": "108,107,122,102,105,85,103,117,104,107,100,103,107,100,127",
                         "endOffsets": "159,267,390,493,599,685,789,907,1012,1120,1221,1325,1433,1534,1662"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Rene\\Documents\\GitHub\\mqtt-android-client\\android-mqtt-quickstart\\app\\build\\intermediates\\res\\merged\\debug\\values-w720dp-v13_values-w720dp-v13.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Rene\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4beac4ec2a5ccc35796589351d13991a\\res\\values-w720dp\\values.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "56",
+                        "endColumns": "76",
+                        "endOffsets": "128"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "76",
+                        "endOffsets": "127"
                     }
                 }
             ]
