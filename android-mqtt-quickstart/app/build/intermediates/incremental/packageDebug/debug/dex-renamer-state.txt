@@ -1,4 +1,4 @@
-#Wed Feb 21 17:26:49 CET 2018
+#Wed Feb 21 17:28:39 CET 2018
 base.0=C\:\\Users\\Rene\\Documents\\GitHub\\mqtt-android-client\\android-mqtt-quickstart\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\24
 path.0=classes.dex
 renamed.0=classes.dex

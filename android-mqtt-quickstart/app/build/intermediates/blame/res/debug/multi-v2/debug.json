@@ -1,28 +1,6 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Rene\\mqtt-android-client\\android-mqtt-quickstart\\app\\build\\intermediates\\res\\merged\\debug\\values-lo-rLA_values-lo-rLA.arsc.flat",
-            "map": [
-                {
-                    "source": "C:\\Users\\Rene\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4beac4ec2a5ccc35796589351d13991a\\res\\values-lo-rLA\\values.xml",
-                    "from": {
-                        "startLines": "3,4,5,6,7,8,9,10,11,12,13,14,15,16,17",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "56,159,267,390,487,594,679,784,896,1003,1100,1198,1303,1406,1510",
-                        "endColumns": "102,107,122,96,106,84,104,111,106,96,97,104,102,103,121",
-                        "endOffsets": "154,262,385,482,589,674,779,891,998,1095,1193,1298,1401,1505,1627"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,158,266,389,486,593,678,783,895,1002,1099,1197,1302,1405,1509",
-                        "endColumns": "102,107,122,96,106,84,104,111,106,96,97,104,102,103,121",
-                        "endOffsets": "153,261,384,481,588,673,778,890,997,1094,1192,1297,1400,1504,1626"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "C:\\Users\\Rene\\mqtt-android-client\\android-mqtt-quickstart\\app\\build\\intermediates\\res\\merged\\debug\\values-ko_values-ko.arsc.flat",
             "map": [
                 {
@@ -40,6 +18,28 @@
                         "startOffsets": "55,150,258,381,475,577,659,757,863,961,1056,1151,1251,1347,1446",
                         "endColumns": "94,107,122,93,101,81,97,105,97,94,94,99,95,98,114",
                         "endOffsets": "145,253,376,470,572,654,752,858,956,1051,1146,1246,1342,1441,1556"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Rene\\mqtt-android-client\\android-mqtt-quickstart\\app\\build\\intermediates\\res\\merged\\debug\\values-lo-rLA_values-lo-rLA.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Rene\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4beac4ec2a5ccc35796589351d13991a\\res\\values-lo-rLA\\values.xml",
+                    "from": {
+                        "startLines": "3,4,5,6,7,8,9,10,11,12,13,14,15,16,17",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "56,159,267,390,487,594,679,784,896,1003,1100,1198,1303,1406,1510",
+                        "endColumns": "102,107,122,96,106,84,104,111,106,96,97,104,102,103,121",
+                        "endOffsets": "154,262,385,482,589,674,779,891,998,1095,1193,1298,1401,1505,1627"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,158,266,389,486,593,678,783,895,1002,1099,1197,1302,1405,1509",
+                        "endColumns": "102,107,122,96,106,84,104,111,106,96,97,104,102,103,121",
+                        "endOffsets": "153,261,384,481,588,673,778,890,997,1094,1192,1297,1400,1504,1626"
                     }
                 }
             ]
@@ -199,28 +199,6 @@
             ]
         },
         {
-            "outputFile": "C:\\Users\\Rene\\android-mqtt-quickstart\\app\\build\\intermediates\\res\\merged\\debug\\values-ur-rPK_values-ur-rPK.arsc.flat",
-            "map": [
-                {
-                    "source": "C:\\Users\\Rene\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4beac4ec2a5ccc35796589351d13991a\\res\\values-ur-rPK\\values.xml",
-                    "from": {
-                        "startLines": "3,4,5,6,7,8,9,10,11,12,13,14,15,16,17",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "56,166,274,397,503,612,698,802,922,1030,1139,1241,1352,1452,1560",
-                        "endColumns": "109,107,122,105,108,85,103,119,107,108,101,110,99,107,128",
-                        "endOffsets": "161,269,392,498,607,693,797,917,1025,1134,1236,1347,1447,1555,1684"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,165,273,396,502,611,697,801,921,1029,1138,1240,1351,1451,1559",
-                        "endColumns": "109,107,122,105,108,85,103,119,107,108,101,110,99,107,128",
-                        "endOffsets": "160,268,391,497,606,692,796,916,1024,1133,1235,1346,1446,1554,1683"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "C:\\Users\\Rene\\Documents\\GitHub\\mqtt-android-client\\android-mqtt-quickstart\\app\\build\\intermediates\\res\\merged\\debug\\values-sr_values-sr.arsc.flat",
             "map": [
                 {
@@ -238,6 +216,28 @@
                         "startOffsets": "55,164,272,395,498,604,690,794,912,1017,1125,1226,1330,1438,1539",
                         "endColumns": "108,107,122,102,105,85,103,117,104,107,100,103,107,100,127",
                         "endOffsets": "159,267,390,493,599,685,789,907,1012,1120,1221,1325,1433,1534,1662"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Rene\\android-mqtt-quickstart\\app\\build\\intermediates\\res\\merged\\debug\\values-ur-rPK_values-ur-rPK.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Rene\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4beac4ec2a5ccc35796589351d13991a\\res\\values-ur-rPK\\values.xml",
+                    "from": {
+                        "startLines": "3,4,5,6,7,8,9,10,11,12,13,14,15,16,17",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "56,166,274,397,503,612,698,802,922,1030,1139,1241,1352,1452,1560",
+                        "endColumns": "109,107,122,105,108,85,103,119,107,108,101,110,99,107,128",
+                        "endOffsets": "161,269,392,498,607,693,797,917,1025,1134,1236,1347,1447,1555,1684"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,165,273,396,502,611,697,801,921,1029,1138,1240,1351,1451,1559",
+                        "endColumns": "109,107,122,105,108,85,103,119,107,108,101,110,99,107,128",
+                        "endOffsets": "160,268,391,497,606,692,796,916,1024,1133,1235,1346,1446,1554,1683"
                     }
                 }
             ]
@@ -377,28 +377,6 @@
             ]
         },
         {
-            "outputFile": "C:\\Users\\Rene\\mqtt-android-client\\android-mqtt-quickstart\\app\\build\\intermediates\\res\\merged\\debug\\values-ja_values-ja.arsc.flat",
-            "map": [
-                {
-                    "source": "C:\\Users\\Rene\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4beac4ec2a5ccc35796589351d13991a\\res\\values-ja\\values.xml",
-                    "from": {
-                        "startLines": "3,4,5,6,7,8,9,10,11,12,13,14,15,16,17",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "56,153,260,381,474,579,661,759,867,969,1068,1163,1266,1361,1457",
-                        "endColumns": "96,106,120,92,104,81,97,107,101,98,94,102,94,95,110",
-                        "endOffsets": "148,255,376,469,574,656,754,862,964,1063,1158,1261,1356,1452,1563"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,152,259,380,473,578,660,758,866,968,1067,1162,1265,1360,1456",
-                        "endColumns": "96,106,120,92,104,81,97,107,101,98,94,102,94,95,110",
-                        "endOffsets": "147,254,375,468,573,655,753,861,963,1062,1157,1260,1355,1451,1562"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "C:\\Users\\Rene\\mqtt-android-client\\android-mqtt-quickstart\\app\\build\\intermediates\\res\\merged\\debug\\values-fi_values-fi.arsc.flat",
             "map": [
                 {
@@ -416,6 +394,28 @@
                         "startOffsets": "55,163,271,394,494,595,681,786,904,1011,1114,1211,1317,1416,1520",
                         "endColumns": "107,107,122,99,100,85,104,117,106,102,96,105,98,103,118",
                         "endOffsets": "158,266,389,489,590,676,781,899,1006,1109,1206,1312,1411,1515,1634"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Rene\\mqtt-android-client\\android-mqtt-quickstart\\app\\build\\intermediates\\res\\merged\\debug\\values-ja_values-ja.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Rene\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4beac4ec2a5ccc35796589351d13991a\\res\\values-ja\\values.xml",
+                    "from": {
+                        "startLines": "3,4,5,6,7,8,9,10,11,12,13,14,15,16,17",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "56,153,260,381,474,579,661,759,867,969,1068,1163,1266,1361,1457",
+                        "endColumns": "96,106,120,92,104,81,97,107,101,98,94,102,94,95,110",
+                        "endOffsets": "148,255,376,469,574,656,754,862,964,1063,1158,1261,1356,1452,1563"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,152,259,380,473,578,660,758,866,968,1067,1162,1265,1360,1456",
+                        "endColumns": "96,106,120,92,104,81,97,107,101,98,94,102,94,95,110",
+                        "endOffsets": "147,254,375,468,573,655,753,861,963,1062,1157,1260,1355,1451,1562"
                     }
                 }
             ]
@@ -487,23 +487,23 @@
             ]
         },
         {
-            "outputFile": "C:\\Users\\Rene\\android-mqtt-quickstart\\app\\build\\intermediates\\res\\merged\\debug\\values-sw_values-sw.arsc.flat",
+            "outputFile": "C:\\Users\\Rene\\Documents\\GitHub\\mqtt-android-client\\android-mqtt-quickstart\\app\\build\\intermediates\\res\\merged\\debug\\values-zh-rTW_values-zh-rTW.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Rene\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4beac4ec2a5ccc35796589351d13991a\\res\\values-sw\\values.xml",
+                    "source": "C:\\Users\\Rene\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4beac4ec2a5ccc35796589351d13991a\\res\\values-zh-rTW\\values.xml",
                     "from": {
                         "startLines": "3,4,5,6,7,8,9,10,11,12,13,14,15,16,17",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "56,159,267,390,488,596,686,791,908,1009,1118,1217,1324,1433,1538",
-                        "endColumns": "102,107,122,97,107,89,104,116,100,108,98,106,108,104,118",
-                        "endOffsets": "154,262,385,483,591,681,786,903,1004,1113,1212,1319,1428,1533,1652"
+                        "startOffsets": "56,151,258,381,474,574,656,753,861,957,1053,1148,1245,1340,1440",
+                        "endColumns": "94,106,122,92,99,81,96,107,95,95,94,96,94,99,112",
+                        "endOffsets": "146,253,376,469,569,651,748,856,952,1048,1143,1240,1335,1435,1548"
                     },
                     "to": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,158,266,389,487,595,685,790,907,1008,1117,1216,1323,1432,1537",
-                        "endColumns": "102,107,122,97,107,89,104,116,100,108,98,106,108,104,118",
-                        "endOffsets": "153,261,384,482,590,680,785,902,1003,1112,1211,1318,1427,1532,1651"
+                        "startOffsets": "55,150,257,380,473,573,655,752,860,956,1052,1147,1244,1339,1439",
+                        "endColumns": "94,106,122,92,99,81,96,107,95,95,94,96,94,99,112",
+                        "endOffsets": "145,252,375,468,568,650,747,855,951,1047,1142,1239,1334,1434,1547"
                     }
                 }
             ]
@@ -531,23 +531,23 @@
             ]
         },
         {
-            "outputFile": "C:\\Users\\Rene\\Documents\\GitHub\\mqtt-android-client\\android-mqtt-quickstart\\app\\build\\intermediates\\res\\merged\\debug\\values-zh-rTW_values-zh-rTW.arsc.flat",
+            "outputFile": "C:\\Users\\Rene\\android-mqtt-quickstart\\app\\build\\intermediates\\res\\merged\\debug\\values-sw_values-sw.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Rene\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4beac4ec2a5ccc35796589351d13991a\\res\\values-zh-rTW\\values.xml",
+                    "source": "C:\\Users\\Rene\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4beac4ec2a5ccc35796589351d13991a\\res\\values-sw\\values.xml",
                     "from": {
                         "startLines": "3,4,5,6,7,8,9,10,11,12,13,14,15,16,17",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "56,151,258,381,474,574,656,753,861,957,1053,1148,1245,1340,1440",
-                        "endColumns": "94,106,122,92,99,81,96,107,95,95,94,96,94,99,112",
-                        "endOffsets": "146,253,376,469,569,651,748,856,952,1048,1143,1240,1335,1435,1548"
+                        "startOffsets": "56,159,267,390,488,596,686,791,908,1009,1118,1217,1324,1433,1538",
+                        "endColumns": "102,107,122,97,107,89,104,116,100,108,98,106,108,104,118",
+                        "endOffsets": "154,262,385,483,591,681,786,903,1004,1113,1212,1319,1428,1533,1652"
                     },
                     "to": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,150,257,380,473,573,655,752,860,956,1052,1147,1244,1339,1439",
-                        "endColumns": "94,106,122,92,99,81,96,107,95,95,94,96,94,99,112",
-                        "endOffsets": "145,252,375,468,568,650,747,855,951,1047,1142,1239,1334,1434,1547"
+                        "startOffsets": "55,158,266,389,487,595,685,790,907,1008,1117,1216,1323,1432,1537",
+                        "endColumns": "102,107,122,97,107,89,104,116,100,108,98,106,108,104,118",
+                        "endOffsets": "153,261,384,482,590,680,785,902,1003,1112,1211,1318,1427,1532,1651"
                     }
                 }
             ]
@@ -1192,28 +1192,6 @@
             ]
         },
         {
-            "outputFile": "C:\\Users\\Rene\\mqtt-android-client\\android-mqtt-quickstart\\app\\build\\intermediates\\res\\merged\\debug\\values-ms-rMY_values-ms-rMY.arsc.flat",
-            "map": [
-                {
-                    "source": "C:\\Users\\Rene\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4beac4ec2a5ccc35796589351d13991a\\res\\values-ms-rMY\\values.xml",
-                    "from": {
-                        "startLines": "3,4,5,6,7,8,9,10,11,12,13,14,15,16,17",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "56,167,275,398,503,611,698,802,913,1025,1134,1231,1340,1443,1550",
-                        "endColumns": "110,107,122,104,107,86,103,110,111,108,96,108,102,106,121",
-                        "endOffsets": "162,270,393,498,606,693,797,908,1020,1129,1226,1335,1438,1545,1667"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,166,274,397,502,610,697,801,912,1024,1133,1230,1339,1442,1549",
-                        "endColumns": "110,107,122,104,107,86,103,110,111,108,96,108,102,106,121",
-                        "endOffsets": "161,269,392,497,605,692,796,907,1019,1128,1225,1334,1437,1544,1666"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "C:\\Users\\Rene\\Documents\\GitHub\\mqtt-android-client\\android-mqtt-quickstart\\app\\build\\intermediates\\res\\merged\\debug\\values-uk_values-uk.arsc.flat",
             "map": [
                 {
@@ -1231,6 +1209,28 @@
                         "startOffsets": "55,165,273,396,498,604,690,798,916,1022,1129,1227,1335,1441,1550",
                         "endColumns": "109,107,122,101,105,85,107,117,105,106,97,107,105,108,123",
                         "endOffsets": "160,268,391,493,599,685,793,911,1017,1124,1222,1330,1436,1545,1669"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Rene\\mqtt-android-client\\android-mqtt-quickstart\\app\\build\\intermediates\\res\\merged\\debug\\values-ms-rMY_values-ms-rMY.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Rene\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4beac4ec2a5ccc35796589351d13991a\\res\\values-ms-rMY\\values.xml",
+                    "from": {
+                        "startLines": "3,4,5,6,7,8,9,10,11,12,13,14,15,16,17",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "56,167,275,398,503,611,698,802,913,1025,1134,1231,1340,1443,1550",
+                        "endColumns": "110,107,122,104,107,86,103,110,111,108,96,108,102,106,121",
+                        "endOffsets": "162,270,393,498,606,693,797,908,1020,1129,1226,1335,1438,1545,1667"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,166,274,397,502,610,697,801,912,1024,1133,1230,1339,1442,1549",
+                        "endColumns": "110,107,122,104,107,86,103,110,111,108,96,108,102,106,121",
+                        "endOffsets": "161,269,392,497,605,692,796,907,1019,1128,1225,1334,1437,1544,1666"
                     }
                 }
             ]
