@@ -1,6 +1,6 @@
 #Internal package file, do not edit.
-#Wed Feb 21 17:28:40 CET 2018
-1.base=C\:\\Users\\Rene\\Documents\\GitHub\\mqtt-android-client\\android-mqtt-quickstart\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\24
+#Tue Feb 27 13:50:17 CET 2018
+1.base=C\:\\Users\\Rene\\Documents\\GitHub\\mqtt-android-client\\android-mqtt-quickstart\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
 0.baseType=DIRECTORY
 1.baseType=DIRECTORY
 count=2

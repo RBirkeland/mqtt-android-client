@@ -16,7 +16,6 @@ import android.os.Bundle;
 import android.support.v4.app.ListFragment;
 import android.text.Spanned;
 import android.widget.ArrayAdapter;
-import org.eclipse.paho.android.service.sample.R;
 
 /**
  * This fragment displays the history information for a client

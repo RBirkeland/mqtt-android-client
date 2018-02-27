@@ -21,6 +21,7 @@ import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
+import android.text.method.ScrollingMovementMethod;
 import android.view.Menu;
 import android.view.View;
 import android.widget.TextView;
@@ -78,20 +79,33 @@ public class ConnectionDetails extends FragmentActivity implements
   private ChangeListener changeListener = null;
 
   public void speechMethod(View v) {
-    System.out.println("SPEEEEEEEECH");
+    System.out.println("SpechMethod called");
     Intent intent = new Intent(this, SpeechActivity.class);
     startActivityForResult(intent, 1);
   }
 
   public void onActivityResult(int requestCode, int resultCode, Intent data) {
     super.onActivityResult(requestCode, resultCode, data);
+
     if (requestCode == 1) {
       if(resultCode == RESULT_OK) {
         String message = data.getStringExtra("editTextValue");
         System.out.print("Got back: " + message);
-        ((TextView) findViewById(R.id.lastWill)).setText("Thor, "+ message + ". Thank you.");
+        if(message.equals("")) {
+          System.out.println("Message is empty");
+        } else {
+          ((TextView) findViewById(R.id.bottomTextView)).setMovementMethod(new ScrollingMovementMethod());
+          ((TextView) findViewById(R.id.lastWill)).setText(message);
+          ((TextView) findViewById(R.id.bottomTextView)).setText("Message:\n"+message+"\n\nResult:\n"+getLastHistoryItem());
+          findViewById(R.id.bottomTextView).setVisibility(View.VISIBLE);
+        }
       }
     }
+  }
+
+  public String getLastHistoryItem() {
+    ArrayList<String> history = connection.getHistory();
+    return history.get(history.size()-1);
   }
 
   /**
@@ -284,6 +298,7 @@ public class ConnectionDetails extends FragmentActivity implements
       fragments.add(fragment);
       fragments.add(new SubscribeFragment());
       fragments.add(new PublishFragment());
+      fragments.add(new UIFragment());
 
     }
 
@@ -316,6 +331,8 @@ public class ConnectionDetails extends FragmentActivity implements
           return getString(R.string.subscribe).toUpperCase();
         case 2 :
           return getString(R.string.publish).toUpperCase();
+        case 3 :
+          return "UI".toUpperCase();
       }
       // return null if there is no title matching the position
       return null;

@@ -111,6 +111,10 @@ public class Connection {
 
   }
 
+  public ArrayList<String> getHistory() {
+    return history;
+  }
+
   /**
    * Creates a connection object with the server information and the client
    * hand which is the reference used to pass the client around activities

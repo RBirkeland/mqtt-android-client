@@ -1,51 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Rene\\mqtt-android-client\\android-mqtt-quickstart\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w600dp-v13\\values-w600dp-v13.xml",
-            "map": [
-                {
-                    "source": "C:\\Users\\Rene\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4beac4ec2a5ccc35796589351d13991a\\res\\values-w600dp\\values.xml",
-                    "from": {
-                        "startLines": "3,5",
-                        "startColumns": "4,4",
-                        "startOffsets": "56,121",
-                        "endColumns": "63,54",
-                        "endOffsets": "115,171"
-                    },
-                    "to": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,119",
-                        "endColumns": "63,54",
-                        "endOffsets": "114,169"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "C:\\Users\\Rene\\Documents\\GitHub\\mqtt-android-client\\android-mqtt-quickstart\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w600dp-v13\\values-w600dp-v13.xml",
-            "map": [
-                {
-                    "source": "C:\\Users\\Rene\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4beac4ec2a5ccc35796589351d13991a\\res\\values-w600dp\\values.xml",
-                    "from": {
-                        "startLines": "3,5",
-                        "startColumns": "4,4",
-                        "startOffsets": "56,121",
-                        "endColumns": "63,54",
-                        "endOffsets": "115,171"
-                    },
-                    "to": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,119",
-                        "endColumns": "63,54",
-                        "endOffsets": "114,169"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "C:\\Users\\Rene\\android-mqtt-quickstart\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w600dp-v13\\values-w600dp-v13.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Rene\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\4beac4ec2a5ccc35796589351d13991a\\res\\values-w600dp\\values.xml",

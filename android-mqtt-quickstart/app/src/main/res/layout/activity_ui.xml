@@ -1,0 +1,116 @@
+<!--
+Licensed Materials - Property of IBM
+
+5747-SM3
+
+(C) Copyright IBM Corp. 1999, 2012 All Rights Reserved.
+
+US Government Users Restricted Rights - Use, duplication or
+disclosure restricted by GSA ADP Schedule Contract with
+IBM Corp.
+ -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3c464b">
+
+    <LinearLayout
+        android:id="@+id/TopTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        >
+
+        <TextView
+            android:id="@+id/topTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#32a0a0"
+            android:padding="16dp"
+            android:text="Priority 14 High Alert\n\nTimestamp: 23:44:51.553\n\nMessage: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/TopTextView"
+        android:layout_marginTop="25dp">
+
+        <ImageButton
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#3c464b"
+            android:src="@drawable/messagebutton" />
+
+        <ImageButton
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#3c464b"
+            android:src="@drawable/suggestionbutton" />
+
+        <ImageButton
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#3c464b"
+            android:src="@drawable/similarbutton" />
+
+        <ImageButton
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#3c464b"
+            android:src="@drawable/findbutton" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttons"
+        android:layout_marginTop="25dp"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        >
+
+        <TextView
+            android:id="@+id/bottomTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#32a0a0"
+            android:padding="16dp"
+            android:text=""
+            android:textColor="#FFFFFF"
+            android:visibility="invisible"
+            android:scrollbars="vertical"
+            android:maxLines="6"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <ImageButton
+            android:id="@+id/micButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#3c464b"
+            android:onClick="speechMethod"
+            android:src="@drawable/microphone"/>
+    </LinearLayout>
+
+</RelativeLayout>
